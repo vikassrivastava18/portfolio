@@ -1,0 +1,24 @@
+@media (min-width: 800px) {
+    .container {
+        display: flex;
+    }
+    nav {
+        flex: 1;
+    }
+    main {
+        flex: 5;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    p {
+        font-size: larger;
+    }
+  }
+
+  @media (max-width: 799px) {
+    li {
+        display: inline;
+    }
+    
+  }
