@@ -1,3 +1,16 @@
+canvas {
+    display: block;
+}
+
+main > div {
+   margin: 0 auto; 
+}
+
+a {
+    text-decoration: none;
+    color: #db068f;
+}
+
 @media (min-width: 800px) {
     .container {
         display: flex;
@@ -20,5 +33,36 @@
     li {
         display: inline;
     }
-    
+  }
+
+  #skillDiv > figure{
+    padding: 15px;
+    margin: 5px;
+    background-color: aquamarine;
+  }
+
+  #experience > figure{
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(156 183 217);
+  }
+
+  nav >* li {
+    font-size: larger;
+  }
+
+  #mainImage {
+    padding: 5px;
+    border: 3px dotted #ed6376;
+    display: block;
+    margin: 0 auto;
+  }
+
+  figure {
+    padding: 10px;
+  }
+
+  blockquote {
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
   }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,32 +12,110 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/style.css">
 </head>
+
 <body>
-    
-    <div class="container">
-        <nav>
-            <div class="flex-shrink-0 p-3">
+    <div class="container p-2">
+        <nav class="p-2 d-flex">   
+            <div class="flex-shrink-0">
                 <ul class="list-unstyled p-2">
-                    <li class="mb-1 p-2" >
-                        <a href="index.html" class="btn">About</a>
+                    <li class="mb-1 p-4" >
+                        <a href="#about">About</a>
                     </li>
-                    <li class="mb-1 p-2"> 
-                        <a href="work.html" class="btn">Work</a>
+                    <li class="mb-1 p-4"> 
+                        <a href="#skills">Skills</a>
                     </li>
-                    <li class="mb-1 p-2">
-                        <a href="contact.html" class="btn">Contact</a>
+                    <li class="mb-1 p-4"> 
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="mb-1 p-4">
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     
         <main class="p-2">
-            <img src="images/hello.png" alt="logo" width="180" class="circle">
-            <div class="mt-4">
-                <p class="">I'm a developer based in India. I have more than three years of experience in building Web applications, using Python, JavaScript.
-                    I am interested in ML/AI and I also love to teach.
+            <article class="d-flex flex-column m-4">
+                <img src="images/my-image.jpg" alt="logo" width="220" id ="mainImage">
+            </article>
+            <hr>
+
+            <div class="my-4" id="about">
+                <h4>About</h4>
+                <p>I'm a software developer based in India. 
+                    I have more than 3 years of experience working as a software developer. 
                 </p>
-                <p>Feel free to reach out :)</p>
+                <p>I seek perfection in whatever I do. I enjoy playing, praying, listening to music, what not!</p>
+                <blockquote>
+                    <i>
+                    What I cannot create, I do not understand - Richard Feynman
+                    </i>
+                </blockquote>
+            </div>
+
+            <div class="my-4 " id="skills">
+                <h4>Skills</h4>
+                <article class="row mt-4 justify-content-between" id="skillDiv">
+                    <figure class="figure col-sm-12 col-md-6 col-lg-3  ">
+                        <h6>JavaScript</h6>
+                        <figcaption class="figure-caption">Frontend languages</figcaption>
+                    </figure>
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Python</h6>
+                        <figcaption class="figure-caption">Backend languages</figcaption>
+                    </figure>
+        
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Django</h6>
+                        <figcaption class="figure-caption">Backend frameworks</figcaption>
+                    </figure>
+
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Flask</h6>
+                        <figcaption class="figure-caption">Backend frameworks</figcaption>
+                    </figure>
+        
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Vue</h6>
+                        <figcaption class="figure-caption">Frontend frameworks</figcaption>
+                    </figure>
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Angular</h6>
+                        <figcaption class="figure-caption">Frontend frameworks</figcaption>
+                    </figure>
+                </article>
+            </div>
+
+            <div class="mt-4">
+                <h4>Experience</h4>
+                <article class="row mt-4 justify-content-between" id="experience">
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Software engineer</h6>
+                        <figcaption class="figure-caption">Chetu, May 2022 - Present</figcaption>
+                    </figure>
+                    
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Software engineer</h6>
+                        <figcaption class="figure-caption">FuriousFox, January 2022 - February 2023</figcaption>
+                    </figure>
+        
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Web developer (Django)</h6>
+                        <figcaption class="figure-caption">VirtualWebs - August 2020 - January 2022</figcaption>
+                    </figure>
+        
+                    <figure class="figure col-lg-3 col-md-6 col-sm-12">
+                        <h6>Backend developer</h6>
+                        <figcaption class="figure-caption">Freelance - August 2019 - August 2020</figcaption>
+                    </figure>
+                </article>
+            </div>
+            
+            <div id="contact" class="mt-4">
+                <h4>Contact</h4>
+                <p>Email: <i>vikassrinitb@gmail.com</i>, 
+               <i><a href="https://www.linkedin.com/in/vikas-srivastava-42a5356a/" target="_blank">LinkedIn </a></i>, 
+                <i><a href="https://github.com/vikassrivastava18" target="_blank">Github </a></i></p>
             </div>
         </main>
     </div>
