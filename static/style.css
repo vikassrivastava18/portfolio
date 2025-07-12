@@ -1,72 +1,96 @@
 canvas {
-    display: block;
+  display: block;
+  url(http://127.0.0.1:3000/index.html)
 }
 
-main > div {
-   margin: 0 auto; 
+main>div {
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    color: #db068f;
+  text-decoration: underline;
+  color: #3a93c7;
 }
 
 @media (min-width: 800px) {
-    .container {
-        display: flex;
-    }
-    nav {
-        flex: 1;
-    }
-    main {
-        flex: 5;
-        padding: 10px;
-        margin: 10px;
-    }
-    
-    p {
-        font-size: larger;
-    }
+  .container {
+    display: flex;
   }
 
-  @media (max-width: 799px) {
-    li {
-        display: inline;
-    }
+  nav {
+    flex: 1;
   }
 
-  #skillDiv > figure{
-    padding: 15px;
-    margin: 5px;
-    background-color: aquamarine;
+  main {
+    flex: 5;
+    padding: 10px;
+    margin: 10px;
   }
 
-  #experience > figure{
-    padding: 15px;
-    margin: 5px;
-    background-color: rgb(156 183 217);
-  }
-
-  nav >* li {
+  p {
     font-size: larger;
   }
+}
 
-  #mainImage {
-    padding: 5px;
-    border: 3px dotted #ed6376;
-    display: block;
-    margin: 0 auto;
+@media (max-width: 799px) {
+  li {
+    display: inline;
   }
+}
 
-  figure {
-    padding: 10px;
-  }
+#skillDiv>figure {
+  padding: 15px;
+  margin: 5px;
+  background-color: aquamarine;
+}
 
-  blockquote {
-    padding: 10px;
-    background-color: rgb(240, 239, 239);
-  }
+#experience>figure {
+  padding: 15px;
+  margin: 5px;
+  background-color: rgb(156 183 217);
+}
 
-  figcaption {
-    color: #000;
-  }
+nav>* li {
+  font-size: larger;
+}
+
+#mainImage {
+  padding: 5px;
+  border: 3px dotted #ed6376;
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  padding: 10px;
+}
+
+blockquote {
+  padding: 10px;
+  background-color: rgb(240, 239, 239);
+}
+
+figcaption {
+  color: #000;
+}
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+}
+
+nav {
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+
+main {
+  background: #fff;
+  border-radius: 8px;
+}
