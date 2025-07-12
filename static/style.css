@@ -8,7 +8,7 @@ main>div {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #3a93c7;
 }
 
@@ -41,13 +41,13 @@ a {
 #skillDiv>figure {
   padding: 15px;
   margin: 5px;
-  background-color: aquamarine;
+  background-color: #d1e6df;
 }
 
 #experience>figure {
   padding: 15px;
   margin: 5px;
-  background-color: rgb(156 183 217);
+  background-color: rgb(210 223 239);
 }
 
 nav>* li {
